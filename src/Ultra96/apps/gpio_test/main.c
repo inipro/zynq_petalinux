@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "gpio_utils.h"
 
-#define GPIO_BASE_PIN	504
+#define GPIO_BASE_PIN	500
 
 int main(int argc, char *argv[])
 {
