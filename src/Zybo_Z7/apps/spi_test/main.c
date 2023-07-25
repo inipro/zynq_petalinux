@@ -15,7 +15,7 @@ int main()
 	uint8_t data[2];
 	int light;
 
-	spi_fd = open("/dev/spidev0.0", O_RDWR);
+	spi_fd = open("/dev/spidev1.0", O_RDWR);
 	if (spi_fd < 0) {
 		perror("open err\n");
 		return spi_fd;
